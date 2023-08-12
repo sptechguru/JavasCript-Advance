@@ -19,7 +19,7 @@ console.log("Search Item Index  is :", index)
 console.log(arrSearch)
 
 // level2 By Defaut Search  Method is indexOf()
-console.warn('Default Search Method is :', arrSearch.indexOf(searchTerm))
+console.warn('Default Search Method is :', arrSearch.indexOf(searchTerm));
 
 
 // level 3 By Defaut Delete  Method is indexOf()

@@ -18,10 +18,6 @@ const arrLenth = (par)=>{
 
 // console.log(arrLenth(awh));
 
-
-
-
-
 // const c;
 // console.log(c)
 // SyntaxError: Missing initializer in const declaration

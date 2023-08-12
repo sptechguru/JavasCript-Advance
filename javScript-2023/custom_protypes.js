@@ -89,7 +89,6 @@ const ReverString = (data) =>{
     }
     return strData;
 }
-
 let arr2 = "Santosh Pal";
 console.log(ReverString(arr2))
 

@@ -2,7 +2,6 @@
 // Promises in javaScript represent process that are allready happenning 
 // Which can be chainned With Callback functions A Promise is said to be settled if it is either 
 // fullifilled or rejected &pending 
-
 // 1) Promise.allSettled[] is show status and value
 // 2) Promise.race[] is show promice 1st time executed
 // 3) Promise.all[] is show promise resolve & rejected show is Error

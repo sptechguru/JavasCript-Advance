@@ -6,7 +6,6 @@ console.log(arr.push({
     age:25
 }));
 console.log(arr);
-
 console.log(arr.pop());
 console.log(arr);
 
@@ -70,29 +69,26 @@ console.log(dec)  //array of object  for using Descresing  Order
 
 
 const remoDuplicatesValueArr = (arr) =>{
-
-    return arr.filter((item ,index,arr)=>{
+   return arr.filter((item ,index,arr)=>{
        return arr.indexOf(item) !== index;
     })
 }
-
    console.log(remoDuplicatesValueArr(arrApdata2))
 
 
 
-//  let sotMethod = ((type,value)=>{
-//     return value.filter((value)=>{
-//         return value.sort((a,b)=>{
-//             if(type=='inc'){
-//               return a-b;
-//             }
-//             else{
-//                 return b-a;
-//             }
-//            })
-//     })
-// });
-
+ let sotMethod = ((type,value)=>{
+    return value.filter((value)=>{
+        return value.sort((a,b)=>{
+            if(type=='inc'){
+              return a-b;
+            }
+            else{
+                return b-a;
+            }
+           })
+    })
+});
 // console.log(sotMethod('inc',pointsArr));
 
 

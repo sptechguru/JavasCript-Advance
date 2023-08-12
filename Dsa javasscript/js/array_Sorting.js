@@ -5,9 +5,9 @@ const arrSort = [300, 1400, 600, 1800, 90, 20, 67, 10];
 function bubbleSort(arr, type) {
     for (let i = 0; i < arr.length; i++) {
         for (let j = 0; j < arr.length; j++) {
-            console.log(arr, type);
-            if (type === 'ASC') {
-                if (arr[j] > arr[j + 1]) {
+            // console.log(arr, type);
+            if (type === 'ASC') { 
+                if (arr[j] >= arr[j + 1]) {  // greater then >=
                     let temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
@@ -15,7 +15,7 @@ function bubbleSort(arr, type) {
                 }
             }
             else {
-                if (arr[j] < arr[j + 1]) {
+                if (arr[j] <= arr[j + 1]) {   //less then <=
                     let temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
@@ -26,7 +26,9 @@ function bubbleSort(arr, type) {
     }
     return arr;
 }
-// console.log(bubbleSort(arrSort, 'SSC'));
+console.log(bubbleSort(arrSort, 'ASC'));
+console.log(bubbleSort(arrSort, 'DSC'));
+
 
 
 // level 2 for using for each Method
@@ -56,4 +58,4 @@ const BubbleSorting = (arr, type) => {
 
 }
 
-console.log(BubbleSorting(arrSort, 'ASC'));
+// console.log(BubbleSorting(arrSort, 'ASC'));

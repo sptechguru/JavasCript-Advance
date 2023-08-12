@@ -62,7 +62,7 @@ const getActiveUser = (arr, type) => {
     return activeUser;
 }
 
-console.log(getActiveUser(userData, false));
+console.log(getActiveUser(userData, true));
 
 
 
@@ -97,7 +97,7 @@ console.log(isCheckName1("Raj", userData));
 let eleObj = {
     id: 104,
     isActive: false,
-    name: "Yogesh",
+    name: "Yuaraj",
     developer: "Angular Developer",
     sallary: 80000,
 };
@@ -105,14 +105,13 @@ let eleObj = {
 const insertValue = (arr, ele) => {
     // arr.push(eleObj) // change Exsit array for Values
     // return arr;
-
     return [...arr, ele]; // spread ... create New array  Withought push method insert elemenets
 };
 // console.log(userData)
 console.log(insertValue(userData, eleObj));
 
-const arrValues = [222, 44, 222, 555, 700, 400, 44, 555, 1000, 1000];
-const arrValues1 = ["Sandeep", "janu", "Akash", "Suman", "santosh", "Ajay"];
+const arrValues = [222, 44, 222, 555, 700, 400, 44, 555, 1000, 1000,222];
+const arrValues1 = ["Sandeep", "janu", "Akash", "Suman", "santosh", "Ajay" ,'Sandeep','santosh'];
 
 const uniQueArray = (arr) => {
     //level (A) for using Set  Method is Unique data type is return
@@ -132,13 +131,13 @@ const uniQueArray = (arr) => {
     //     return acc.includes(ele) ? acc :[...acc,ele]
     // },[])
 };
-console.log(arrValues);
-console.log("Array Uniques Values Showing :", uniQueArray(arrValues));
+console.log('Orignal array',arrValues);
+console.log("Array Uniques Values Showing :", uniQueArray(arrValues1));
 
 
 const duplcateArrValues = (arr) => {
     // //level (1) for using filter & indexOf  Method this is showing duplicates Values
-    return arr.filter((item, index, arr) => {
+    return arr.filter((item, index, arr2) => {
         return arr.indexOf(item) !== index;
     });
 };
