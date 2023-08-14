@@ -15,4 +15,25 @@ const checkPaliDrome = (str) => {
 }
 
 console.log(checkPaliDrome('madam'))
-// console.log(checkPaliDrome('PAL'))
+console.log(checkPaliDrome('PAL'))
+
+
+const checkPaliDrom = (str) => {
+    let left = 0;
+    let right = str.length - 1;
+    let output = ''
+    while (left < right) {
+        if (str[left] !== str[right]) {
+            output = 'This is Not Palindrome'+str;
+            return output;
+        }
+        else {
+            left++;
+            right--;
+            output = 'This is Palindrome '+ str;
+            return output;
+        }
+    }
+}
+
+console.log(checkPaliDrom('EYE'))

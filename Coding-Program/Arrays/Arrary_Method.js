@@ -77,7 +77,7 @@ const remoDuplicatesValueArr = (arr) =>{
 
 
 
- let sotMethod = ((type,value)=>{
+ let sortMethod = ((type,value)=>{
     return value.filter((value)=>{
         return value.sort((a,b)=>{
             if(type=='inc'){
@@ -89,6 +89,4 @@ const remoDuplicatesValueArr = (arr) =>{
            })
     })
 });
-// console.log(sotMethod('inc',pointsArr));
-
-
+console.log(sortMethod('inc',pointsArr));
