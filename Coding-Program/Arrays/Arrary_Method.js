@@ -90,3 +90,23 @@ const remoDuplicatesValueArr = (arr) =>{
     })
 });
 console.log(sortMethod('inc',pointsArr));
+
+
+//  How to find only index of Number's
+let student=[
+    {id:1,name:'abc'},
+    {id:2,name:'xyz'},
+    {id:3,name:'opq'}
+];
+let targetId = 2;
+let indexValue = student.findIndex((item)=> item.id === targetId);
+console.log(indexValue);
+
+if(indexValue !== -1){
+  console.log('index is Found ', indexValue);
+}
+else{
+  console.log('index data is Not found',indexValue);
+}
+
+

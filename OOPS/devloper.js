@@ -1,5 +1,4 @@
 class Developer {
-
     constructor(name,last, dob, email,mob){
         this.fname = name;
         this.lname = last;

@@ -2,7 +2,7 @@ console.log("Sorting for asendeing ...");
 
 const arrSort = [300, 1400, 600, 1800, 90, 20, 67, 10];
 
-function bubbleSort(arr, type) {
+const  bubbleSort = (arr, type) => {
     for (let i = 0; i < arr.length; i++) {
         for (let j = 0; j < arr.length; j++) {
             // console.log(arr, type);
