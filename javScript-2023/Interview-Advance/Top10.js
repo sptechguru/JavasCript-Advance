@@ -2,7 +2,7 @@ console.log("Welcome to programiz.......");
  //1  Find the missing number from given array input 
 
  let arr = [1,2,3,5]   // Op is [4,6,7,8,9,10]
- let count = 10;
+ let count = 100;
  let store = [];
 
  // for something check should create new array 
