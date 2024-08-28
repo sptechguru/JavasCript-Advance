@@ -1,14 +1,17 @@
 console.log("Palindrome Number is  input revesr out for Ex (EYE,MADAM)");
 
 const checkPaliDrome = (str) => {
-    let brakeString = str.split('').reverse().join('');
-    if (brakeString === str) {
+    let checkString = str.split('').reverse().join('');
+    if (checkString === str) {
         console.log('This is Palidrome', str);
+        return true;
     }
     else {
         console.log('Not Palidrome', str);
+        // return false;
+
     }
-    return brakeString;
+    return checkString;
 
     //  return brakeString  === str;
 

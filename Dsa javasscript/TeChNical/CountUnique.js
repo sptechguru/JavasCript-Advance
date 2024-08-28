@@ -14,8 +14,9 @@ if(arr.length > 0 ){
     return num +1;
 }
 else{
+
     throw new Error('Array is Empty')
 }
 }
 console.log(countUnique(arrData));
-console.log(countUnique([]));
+// console.log(countUnique([]));

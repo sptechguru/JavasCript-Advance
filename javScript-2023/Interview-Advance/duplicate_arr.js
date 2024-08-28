@@ -4,6 +4,11 @@ let dupArrData = [1, 2, 3, 2, 5, 6, 1, 7, 8, 9, 9];
 //OP [2,3,4,5]
 
 
+//  Remove Duplcates in array 
+
+let dup = new Set([...duparr]);
+console.log(dup);
+
 const duplicateArr = (dupArr) => {
     let duplicateValue = [];
     let checkNum = {};
@@ -66,3 +71,20 @@ return store;
 }
 console.log('Array Misssing Number show is :', checkArrayMissingNum(arr,10));
 
+const checkPalidrome = (str)=>{
+    let strValue = '';
+    let finalOp = str.split('').reverse().join('')
+    if(str === finalOp){
+     strValue = 'This String is palindrome';
+     return strValue;
+    }
+    else{
+     strValue = 'This String is Not palidrome';
+     return strValue;
+    }
+    }
+    let res = checkPalidrome('MADAM')
+    console.log('Check Plaindrome Number:',res);
+    
+    
+    

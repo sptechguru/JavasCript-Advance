@@ -9,7 +9,7 @@ data.then((res)=>{
 })
 .then((result)=>{
     return res.json();
-    console.log("2nd Output is",result);
+    // console.log("2nd Output is",result);
 })
 
 .catch((err)=>{

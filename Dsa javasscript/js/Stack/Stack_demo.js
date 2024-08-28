@@ -1,5 +1,4 @@
-let stckDef  = `
-Stack is a very useful data structure and has a wide range 
+let stckDef  = ` Stack is a very useful data structure and has a wide range 
 of application. Stack is a linear data structure in 
 which addition or removal of element follows a particular order i.e.
 LIFO(Last in First Out) AND FILO(First in Last Out). `;

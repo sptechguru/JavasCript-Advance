@@ -22,6 +22,22 @@ console.log(string);
 
 
 
+let str = '';
+let num = 20;
+for(var i =1; i<=num; i++){
+//  str += "\n";
+for(var j =i ; j<=i; j++ ){
+  // console.log(j);
+  str += j;
+}
+ console.log(str)
+}
+
+
+
+
+
+
 
 const pattern = (num) => {
     let str = "";

@@ -20,8 +20,7 @@ speace complexity is 0(log)n
 let BSA = ` Binary Search is Based of Left right Condition are checked after that
 iterate a Loop. for using Mid Value arr 
 Exaple: find a MidValue ?
-midValue = arr.length / 2 ;
-`
+midValue = arr.length / 2 ;`
 
 console.log(searchDef);
 console.log(BSA);

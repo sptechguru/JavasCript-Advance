@@ -4,7 +4,7 @@ console.log(typeof 42); //number
 
 let str = ['a','b','c','d','e','f'];
 console.log(str.slice(1,5));
-console.log(str.includes(200));
+console.log(str.includes(200));        // check arr a value get the value return true  & false
 
 
 console.log(str.splice(1));

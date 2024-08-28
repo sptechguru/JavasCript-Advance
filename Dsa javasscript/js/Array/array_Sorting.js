@@ -58,4 +58,4 @@ const BubbleSorting = (arr, type) => {
 
 }
 
-// console.log(BubbleSorting(arrSort, 'ASC'));
+console.log(BubbleSorting(arrSort, 'ASC'));

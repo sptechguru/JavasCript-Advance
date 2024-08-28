@@ -14,8 +14,6 @@ const Insertion_Sort = (arr) => {
         }
         arr[j + 1] = current;
     }
-
-
     return arr;
 }
 

@@ -13,9 +13,9 @@ let a = 30;
   let b = 40;
   {
     let a = 50;
-    console.log(a + b);
+    console.log(a + b);  //90
   }
-  console.log(a + b);
+  console.log(a + b);   //70
 }
 // let st = "santosh";
 // console.log(`hello ${'st'}`);

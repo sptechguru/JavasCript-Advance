@@ -3,8 +3,7 @@ let website_Link = `https://www.section.io/engineering-education/sorting-algorit
 let sorting = `
 The sort() sorts the elements of an array. The sort() overwrites
  the original array. The sort() sorts the elements as strings in alphabetical
-  and ascending order. & Descending Order.
-`;
+  and ascending order. & Descending Order.`;
 
  let Types_of_Sorting = `
  There are 6 types of Sorting in javascript 
@@ -37,8 +36,7 @@ find a Pivot your Choice for . .
 Ex1: midValue = arr.length /2;
 Ex2: arrLastElement = arr.length-1;
 Ex3: arrFirstElement = arr[0];
-Ex4: Randam value  =  any where ?
-`; 
+Ex4: Randam value  =  any where ?`; 
 
 
 let Time_comPlexity = `

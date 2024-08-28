@@ -13,3 +13,7 @@ console.warn(b);
 
 console.warn(typeof a);
 console.warn(typeof b);
+
+(()=>{
+console.log("Iffe is called");
+})()

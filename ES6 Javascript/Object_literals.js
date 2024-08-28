@@ -24,9 +24,7 @@ console.log(obj.method());
 // 2nd Examples  function name is inside square brackets for sum []
 console.log(obj['sum'](1,5));
 
-
-// 3rd  Examples function retur is object
-
+// 3rd  Examples function return is object
 let fname = "Santosh";
 let lname = "Pal";
 let course = "B.Tech";

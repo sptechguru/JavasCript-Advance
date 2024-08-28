@@ -1,6 +1,6 @@
 console.log("Reverse all word");
 
-let strWord = "Welcome Santosh Pal in Javascript"
+let strWord = "Welcome Santosh Pal in Javascript";
 const ReversWord = (str) => {
     // Level 0
     let res = str.split('').reverse().join('');
@@ -22,19 +22,20 @@ console.log(checkArrayOrobject([])) // true
 //  how To array is Empty
 
 let arr = [2, 5, 7, 9, 50, 20];
+arr = [];
 let Empty = arr.length = 0;
 console.log(Empty) // op is []
 
 
 //  How To check Number in integer or Not   inbuild isInteger()
 let intData = 12.9;
-const isCheckInteger = (num) => {
 
+const isCheckInteger = (num) => {
     if (num % 1 === 0) {
-        console.log('This Number is integer', intData);
+        console.log('This Number is integer', num);
     }
     else {
-        console.log('Number is Not integer', intData);
+        console.log('Number is Not integer', num);
     }
 }
 console.log(isCheckInteger(2));

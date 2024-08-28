@@ -2,7 +2,6 @@
 console.log("Use strict mode is show errors for Javascript Rules not followed ");
 
 "use strict"
-
 const strictMode=(a,b,b) =>{
   console.log(a+b+b);
 }

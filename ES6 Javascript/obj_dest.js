@@ -6,8 +6,8 @@ let {name,...dob} = objs;
 console.log(objs);
 
 
-console.warn(name);
-console.warn(age);
-console.warn(email);
-console.log(['dob']);
-console.log(mob);
+// console.warn(name);
+// // console.warn(age);
+// console.warn(email);
+// console.log(['dob']);
+// console.log(mob);

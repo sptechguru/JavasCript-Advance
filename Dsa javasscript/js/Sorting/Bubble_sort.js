@@ -5,7 +5,7 @@ const bubbleSort = (arr, order) => {
     for (let i = 0; i <= arr.length; i++) {
         for (let j = 0; j <= arr.length; j++) {
         if(order === 'ASC'){
-            if (arr[j] > arr[j + 1]) {
+            if (arr[j] >= arr[j + 1]) {
                 // var temp = arr[j];
                 // arr[j] = arr[j + 1];
                 // arr[j + 1] = temp;
@@ -15,8 +15,8 @@ const bubbleSort = (arr, order) => {
             }
          }
             else{
-                if (arr[j] < arr[j + 1]) {
-                    var temp = arr[j];
+                if (arr[j] <= arr[j + 1]) {
+                    let temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
 
@@ -28,6 +28,5 @@ const bubbleSort = (arr, order) => {
     }
     return arr;
 }
-
 let res = bubbleSort(arrSort, 'ASC');
 console.log('Bubble Sort :-',res);

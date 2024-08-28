@@ -1,12 +1,10 @@
 let arrSort = [4, 5, 68, 10, 20, 25, 30, 35, 40, 60];
 let data = [8, 20, -2, 4, -6];
 
-
 const quickSort = (arr) => {
     if (arr.length < 2) {
         return arr;
     }
-
     let left = [];
     let right = [];
     let pivot = arr[arr.length - 1];

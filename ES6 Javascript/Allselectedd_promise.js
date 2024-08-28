@@ -6,7 +6,6 @@
 // 2) Promise.race[] is show promice 1st time executed
 // 3) Promise.all[] is show promise resolve & rejected show is Error
 
-
 let task = Promise.allSettled([
     new Promise((res,rej)=>{
         setTimeout(() =>{
@@ -31,9 +30,7 @@ let task = Promise.allSettled([
             res("10th promise is resolved");
         },10000)
       })
-  
 ])
-
 task.then((item)=>{
     console.log("Then Block is show in promise",item);
 })

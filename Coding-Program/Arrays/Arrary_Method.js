@@ -73,7 +73,7 @@ const remoDuplicatesValueArr = (arr) =>{
        return arr.indexOf(item) !== index;
     })
 }
-   console.log(remoDuplicatesValueArr(arrApdata2))
+console.log(remoDuplicatesValueArr(arrApdata2))
 
 
 
@@ -109,4 +109,21 @@ else{
   console.log('index data is Not found',indexValue);
 }
 
+
+
+const candidate = [
+    {name: 'Aman', age: 20, address: 'Indore'},
+    
+    {name: 'Suman', age: 80, address: 'Delhi'},
+    
+    {name: 'Arun', age: 10, address: 'Bhopal'},
+    
+    {name: 'Dhanaj', age: 15, address: 'Patna'},
+    
+    {name: 'Raghav', age: 700, address: 'Mumbai'}
+    ];
+    
+  let newarr =  candidate.filter((item)=> item.age >20);
+
+  console.log(newarr);
 

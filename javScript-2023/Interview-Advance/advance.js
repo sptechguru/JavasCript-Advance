@@ -42,18 +42,18 @@ const getActiveUser = (arr, type) => {
     let activeUser = [];
 
     // Level 0  Check User is Active Status for loop as Begginer
-    for(let i= 0; i<arr.length; i++){
-        if(arr[i].isActive == type){
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i].isActive == type) {
             activeUser.push(arr[i].name)
         }
     }
 
     // Level 1  Check User is Active Status for using forEach method
-     arr.forEach(item => {
-        if(item.isActive === type){
+    arr.forEach(item => {
+        if (item.isActive === type) {
             activeUser.push(item.name);
         }
-     });
+    });
 
     // level 3 for using Chain method advance 
     activeUser = arr.filter((user) => user.isActive == type)
@@ -110,8 +110,8 @@ const insertValue = (arr, ele) => {
 // console.log(userData)
 console.log(insertValue(userData, eleObj));
 
-const arrValues = [222, 44, 222, 555, 700, 400, 44, 555, 1000, 1000,222];
-const arrValues1 = ["Sandeep", "janu", "Akash", "Suman", "santosh", "Ajay" ,'Sandeep','santosh'];
+const arrValues = [222, 44, 222, 555, 700, 400, 44, 555, 1000, 1000, 222];
+const arrValues1 = ["Sandeep", "janu", "Akash", "Suman", "santosh", "Ajay", 'Sandeep', 'santosh'];
 
 const uniQueArray = (arr) => {
     //level (A) for using Set  Method is Unique data type is return
@@ -131,7 +131,7 @@ const uniQueArray = (arr) => {
     //     return acc.includes(ele) ? acc :[...acc,ele]
     // },[])
 };
-console.log('Orignal array',arrValues);
+console.log('Orignal array', arrValues);
 console.log("Array Uniques Values Showing :", uniQueArray(arrValues1));
 
 

@@ -1,10 +1,15 @@
 
 let awh  = [45,6,7,8,9,0,23,56,7,8,34];
-
 // array withought revere method using revere of array of value
-
 for(let i= awh.length-1; i>=0; i--){
     console.log(awh[i]);
+}
+
+
+let arr = ['s','p','l'];
+
+for(let i=arr.length-1; i>=0; i--){
+console.log(awh[i])
 }
 
 // 1 arr withought any  built method array finding length
@@ -16,7 +21,8 @@ const arrLenth = (par)=>{
     return length;
 }
 
-// console.log(arrLenth(awh));
+console.log(arrLenth("Length",awh));
+
 
 // const c;
 // console.log(c)
@@ -25,7 +31,7 @@ const arrLenth = (par)=>{
 // Multiple array of print all array of values
 
 for(let  i=0; i<awh.length; i++){
-    console.log('index' +i+"--" + awh[i]);
+    // console.log('index' +i+"--" + awh[i]);
 }
 
 let  forin = ['apple','banana','orange'];

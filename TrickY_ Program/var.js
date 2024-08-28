@@ -14,4 +14,3 @@
  console.log(typeof(str));
  console.log(typeof(obj));
 
-

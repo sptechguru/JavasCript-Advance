@@ -1,5 +1,4 @@
 console.log('Sum of Pair Zero Dsa Program ');
-
 let arrValue = [-5, -4, -3, -2, 0, 2, 4, 6, 7, 8];
 
 const sumZeroPair = (array) => {
@@ -14,8 +13,6 @@ const sumZeroPair = (array) => {
 }
 console.log(sumZeroPair(arrValue));
 // quardratic  Time Complexity  0(n^)2  This Program two loops are used ;
-
-
 const pairOfZero = (arr) => {
     let left = 0;
     let right = arr.length - 1;
@@ -34,10 +31,7 @@ const pairOfZero = (arr) => {
     }
     return sum;
 }
-
-
 console.log(pairOfZero(arrValue));
-
 // Linear  Time Complexity  0(n)  This Program one loops are used ;
 
 
