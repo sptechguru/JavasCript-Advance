@@ -1,4 +1,5 @@
-console.log("Curring is javascript is process in functional programing transform function with multiple arguments into sequence of nesting fuctions.");
+console.log(`Curring is javascript is Process in functional programing transform function with 
+    multiple arguments into sequence of nesting fuctions.`);
 
 function Addition(a){
     return function(b){
