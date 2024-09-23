@@ -1,3 +1,4 @@
+
 let arr = ['Apple', 'Banana', "orange", "Lemon"];
 console.log(arr.length);
 let res = arr.pop();  // Remove elements of last array value;

@@ -15,7 +15,7 @@ let arr = [
 
 const removeDuplicatearr = (arr) => {
     return [... new Set(arr)]
-    // return arr.filter((item, index) => arr.indexOf(item) == index);   // for using build method of filter & index of
+    return arr.filter((item, index) => arr.indexOf(item) == index);   // for using build method of filter & index of
 
 }
 let arrNum = [1, 12, 5, 8, 7, 55, 12, 2]
@@ -25,13 +25,11 @@ console.log(removeDuplicatearr(arrNum));
 
 const revmoveDuparrFor = (arr) => {
     let uniquearr = [];
-
     arr.forEach((item) => {
         if (!uniquearr.includes(item)) {
             uniquearr.push(item);
         }
     });
-
     return uniquearr;
 }
 console.log(revmoveDuparrFor(arr));
@@ -57,6 +55,7 @@ console.log(removeDuplicates(arr2));
     let uniqeList = [];
     let count = 0;
     let  start = false;
+    
     for(let i =0; i<arr.length; i++){
       for(let j=0; j<uniqeList.length; j++){
        
