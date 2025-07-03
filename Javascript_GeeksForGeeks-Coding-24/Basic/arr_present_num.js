@@ -6,8 +6,6 @@ let res = arr.includes(findVale);
 let result = arr.find(element => element === findVale);
 console.log(result)
 
-
-
 result = false;
 for(let i=0; i<arr.length; i++){
    if(arr[i] == findVale){

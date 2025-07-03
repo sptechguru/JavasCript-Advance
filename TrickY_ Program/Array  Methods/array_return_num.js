@@ -11,6 +11,7 @@ const arrUnique_val=(item)=>{
  let list = [];
  for(let i = 0; i<item.length; i++){
  if(list.indexOf(item[i]) == -1)
+    
  console.log(list.push(item[i]));
  }
  return list;

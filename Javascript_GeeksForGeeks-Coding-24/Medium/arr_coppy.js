@@ -12,8 +12,9 @@ const result = arr.map(item => item);
 console.log(newArray);
 console.log(arr)
 console.log(copy)
-console.log(cslice)
+console.log(cslice);
 console.log(result, copiedArray)
+
 
 
 

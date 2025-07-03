@@ -6,6 +6,7 @@ const findLargestArr = (arr) => {
     // throw new Error("Array is empty");
   } else {
     let max = arr[0];
+    
     // step1 for using Loop
     for (let i = 0; i < arr.length; i++) {
       if (arr[i] > max) {  // arr[i] < max) Min Value

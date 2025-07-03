@@ -10,8 +10,6 @@ arr.forEach((item)=>{
 console.log(count);
 
 
-
-
 function multiply(num1){
     return function(num2) {
         console.log(num1*num2);

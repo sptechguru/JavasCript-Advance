@@ -8,7 +8,6 @@ let obj = {
         name: 'Viha Tech Pvt Ltd',
         postion: 'Ui Developer'
     },
-
     packages: {
         salary: '17 LPA' 
     }

@@ -10,12 +10,10 @@ class Developer {
  showDeveloperDetails() {
       console.log(`First name is ${this.fname} & last Name is ${this.lname} & Birth is ${this.Birth}
       Devloper Mail id is ${this.emailid} & pleaase contact this Number ${this.mobil}`)
-
     }
 }
 
 class Role extends Developer {
-
  constructor(name,last, dob, email,mob,user, post, sallary){
     super(name,last, dob, email,mob,user, post, sallary);
     this.admin = role;

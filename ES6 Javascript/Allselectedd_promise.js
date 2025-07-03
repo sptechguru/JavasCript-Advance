@@ -24,7 +24,6 @@ let task = Promise.allSettled([
           res("3rd promise is resolved");
       },3000)
     }),
-
     new Promise((res,rej)=>{
         setTimeout(()=>{
             res("10th promise is resolved");

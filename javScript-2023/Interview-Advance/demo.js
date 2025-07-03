@@ -1,5 +1,4 @@
 let arr = [2,3,4,6,7,8,9,10];
-
 // filter method is check conditon is true return new array
 let Newfilter  = arr.filter((item)=> item >= 8 )
 console.log('Orignal Array',arr)  

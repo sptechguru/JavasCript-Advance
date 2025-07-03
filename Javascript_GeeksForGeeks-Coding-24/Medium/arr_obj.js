@@ -15,7 +15,6 @@ let employees_data = [
 
 let findIndex = 2
 
-
 for (let object of employees_data) {
     if (object.employee_id === findIndex) {
         object.employee_name = "Santosh";

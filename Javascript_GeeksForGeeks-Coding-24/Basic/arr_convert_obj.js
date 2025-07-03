@@ -8,8 +8,8 @@ let arr = [
 ];
 
 
-let createObj = new Map();
-console.log(createObj);
+// let createObj = new Map();
+// console.log(createObj);
 
 
 let createdMap = new Map();

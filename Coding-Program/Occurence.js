@@ -1,6 +1,5 @@
 console.log("Check Occurnce how Many letter are reapeaated in obj")
 
-
 const checkOccurence = (str)=>{
 let occurnceWord = {};
 let finalString =  str.toUpperCase().split('').forEach(item => {

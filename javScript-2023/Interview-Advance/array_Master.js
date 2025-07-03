@@ -2,8 +2,6 @@
 let arrData = [1,4,0,5,0,4,2,0,8]
 // place all the 0 in the last of array without using new array and without sort 
 
-
-
 function findMissingNumber(arr) {
     let n = arr.length + 1;
     let expectedSum = (n * (n + 1)) / 2;

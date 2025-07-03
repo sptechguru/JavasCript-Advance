@@ -12,7 +12,7 @@ const smalletsArray = (arr)=>{
         }
         return arr[2];
 }
-// console.log(smalletsArray(arrData));
+console.log(smalletsArray(arrData));
 
 
 

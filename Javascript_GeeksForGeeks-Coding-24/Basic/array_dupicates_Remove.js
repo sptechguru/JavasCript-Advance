@@ -14,7 +14,7 @@ let arr = [
 
 
 const removeDuplicatearr = (arr) => {
-    return [... new Set(arr)]
+   // return [... new Set(arr)]
     return arr.filter((item, index) => arr.indexOf(item) == index);   // for using build method of filter & index of
 
 }

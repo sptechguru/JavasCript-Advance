@@ -14,6 +14,4 @@ for(let i =0; i<arr.length; i++){
         secondlargest = arr[i]
     }
 }
-
-
 console.log(secondlargest);

@@ -4,7 +4,6 @@ arr.push(obj);
 console.log(arr);
 
 
-
 let list = ["Geeks", "Contribute", "Explore"];
 list.unshift(obj);
 console.log(list);

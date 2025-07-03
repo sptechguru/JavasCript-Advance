@@ -1,5 +1,5 @@
 let obj = {
-    name:"Santosh"
+name:"Santosh"
 }
 
 var b1 =20;
@@ -8,17 +8,13 @@ const chaGeName = (cname,num)=>{
  num.b = 50;
 }
 chaGeName(obj, b1);
-
 console.log(obj.name, b1);
-
-
 
 console.log('first');
 setTimeout(() => {
   console.log('setTimeout'); //=> this will get called last 
 }, 0);
 console.log('last'); 
-
 
 function a() {
     b();

@@ -19,7 +19,6 @@ let resNum = arrNum.filter((item) => item > 0);
 console.log(resNum);
 
 
-
 const arrRvemove = (arr, num) => {     // Remove arr of Dynamic values for cutom method
     let newarr = [];
     for (let i = 0; i < arr.length; i++) {

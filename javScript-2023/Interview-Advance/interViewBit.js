@@ -17,7 +17,6 @@ console.log(anotherArrayOfLetters);
 
 
 // Without destructuring:
-
 const address = ["583, Margaret Street", "LOS ANGELES, CA", "USA"];
 console.log( "Address 1: " + address[0],"Address 2: " + address[1],
   "Address 3: " + address[2]

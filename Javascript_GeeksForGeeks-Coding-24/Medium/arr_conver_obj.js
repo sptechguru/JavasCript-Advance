@@ -1,9 +1,8 @@
 let arr = [1, 5, 9, 8, 874, 25, 65];
 
-let sum =0;
+let sum = 0;
 for (let index = 0; index < arr.length; index++) {
      sum +=  arr[index]
-   
 }
 // Calculation the sum using forEach
 arr.forEach(x => {

@@ -24,6 +24,13 @@ let foreach =arr.forEach((item)=>{
 })
 
 
+// let arr = [1,4,2,6,8,3];
+let res = arr.sort((a,b) => a-b);
+console.log(res)
+let fifthLargest = arr[arr.length - 1];
+console.log(fifthLargest)
+
+
 let arrApdata2 = [
     {id:1, name: "santosh", age:20},
     {id:2, name: "sani", age:40},
